@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import tracking from '../../assets/tracking';
+import tracking from '../assets/tracking';
 
 const createArray = num => {
   let arr = [];
@@ -42,13 +42,12 @@ class WorkModal extends React.Component {
         <div>
           {this.props.showModal &&
             createArray(tracking[this.props.showModal].num).map(num =>
-              tracking[this.props.showModal].mp4 === num ? (
+            { const title = tracking[this.props.showModal];
+              return title.mp4 === num ? (
                 <div className="border my12" key={num}>
                   <video controls>
                     <source
-                      src={`../../assets/images/${
-                        this.props.showModal
-                      }/${num}.mp4`}
+                      src={require(`../assets/images/${this.props.showModal}/${num}.mp4`)}
                       type="video/mp4"
                     />
                     Your browser does not support HTML5 video.
@@ -57,14 +56,12 @@ class WorkModal extends React.Component {
               ) : (
                 <div className="border my12" key={num}>
                   <img
-                    src={`../../assets/images/${this.props.showModal}/${num}${
-                      tracking[this.props.showModal].gif === num
-                        ? '.gif'
-                        : '.jpg'
-                    }`}
+                    src={require(`../assets/images/${this.props.showModal}/${num}${title.gif === num ? '.gif' : '.jpg'}`)}
                   />
                 </div>
               )
+            
+            }
             )}
         </div>
       </div>

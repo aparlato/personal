@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import tracking from '../../assets/tracking';
+import tracking from '../assets/tracking';
 
 class Work extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Work extends React.Component {
     return (
       <div className="flex-parent flex-parent--center-main flex-parent--center-cross flex-parent--column pt36">
           <div className={`w36 h36 ${this.props.scroll && 'none'}`}>
-          <img src="../../assets/arrow_02.svg" />
+          <img src={require("../assets/arrow_02.svg")} />
           </div>
         {Object.keys(tracking).map(thumbnail => (
           <div
@@ -22,7 +22,7 @@ class Work extends React.Component {
           >
             <img
               className="thumbnail-width"
-              src={`../../assets/images/thumbnails/${thumbnail}.jpg`}
+              src={require(`../assets/images/thumbnails/${thumbnail}.jpg`)}
             />
           </div>
         ))}

@@ -16,7 +16,7 @@ class About extends React.Component {
               key={del}
               style={{
                 background:
-                  'url("../../css/sprites/melt_head_02.png") left center',
+                  `url(${require("../assets/sprites/melt_head_02.png")}) left center`,
                 animationDelay: `${0.1 * del}s`
               }}
               className="animation move-up-mobile"
