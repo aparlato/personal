@@ -17,7 +17,7 @@
     "start": "budo src/index.js:build/bundle.js --live",
     "format": "prettier --write '**/*.js'",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d bundle.js"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@mapbox/assembly": "^0.21.3",
