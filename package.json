@@ -13,8 +13,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "browserify src/index.js | uglifyjs > bundle.js",
-    "start": "budo src/index.js:bundle.js --live",
+    "build": "browserify src/index.js | uglifyjs > build/bundle.js",
+    "start": "budo src/index.js:build/bundle.js --live",
     "format": "prettier --write '**/*.js'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d bundle.js"
