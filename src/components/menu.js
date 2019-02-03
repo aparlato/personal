@@ -25,7 +25,7 @@ class Menu extends React.Component {
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
           About
         </Link>
-        <a href="../assets/resume.pdf" download>
+        <a href={require("../assets/resume.pdf")} download>
           CV
         </a>
       </div>
