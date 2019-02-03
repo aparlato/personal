@@ -2,6 +2,7 @@
   "name": "alex",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://aparlato.github.io/personal/",
   "repository": "git@github.com:aparlato/alex.git",
   "author": "Alex Parlato <alex.parlato@mapbox.com>",
   "license": "MIT",
@@ -14,7 +15,9 @@
     "test": "jest",
     "build": "browserify src/index.js | uglifyjs > bundle.js",
     "start": "budo src/index.js:bundle.js --live",
-    "format": "prettier --write '**/*.js'"
+    "format": "prettier --write '**/*.js'",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@mapbox/assembly": "^0.21.3",
