@@ -114,7 +114,7 @@ export default {
   slab: {
     title: 'Slab',
     description: [
-      'For this project, I created a name, logo, and branding system for an imagined furniture company that I named "Slab." The company was focused on giving back to the community while also providing high quality, USA made furniture. The pieces shown are a promotional brochure that folds out into a one-sided poster as well as screens from the website.'
+      'For this project, I created a name, logo, and branding system for an imagined furniture company that I named "Slab." The company was focused on giving back to the community while also providing high quality, USA made furniture. The piece shown is a promotional brochure that folds out into a one-sided poster.'
     ],
     num: 4,
     mp4: null,
