@@ -35,7 +35,7 @@ body,
 	line-height: 1.25em;
 	font-family: 'Poppins';
 	font-weight: bold;
-	text-fill-color
+	text-fill-color: rgba(100, 100, 100, 0);
 	-webkit-text-fill-color: rgba(100, 100, 100, 0);
   -moz-text-fill-color: rgba(100, 100, 100, 0);
   -o-text-fill-color: rgba(100, 100, 100, 0);
