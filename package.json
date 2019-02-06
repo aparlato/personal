@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aparlato.github.io/personal/",
+  "homepage": "https://alexanderparlato.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
