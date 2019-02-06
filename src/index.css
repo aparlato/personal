@@ -13,7 +13,13 @@ body,
   margin: 2% auto;
   /* total length of animation and number of frames */
   animation: play 3s steps(24) infinite;
+  -webkit-animation: play 3s steps(24) infinite;
+  -moz-animation: play 3s steps(24) infinite;
+  -o-animation: play 3s steps(24) infinite;
   transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  -moz-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
 }
 
 
@@ -24,15 +30,23 @@ body,
 
 .txt-display {
 	/*font-size: 9em;*/
+	margin-left: 160px;
 	font-size: 10vw;
 	line-height: 1.25em;
 	font-family: 'Poppins';
 	font-weight: bold;
+	text-fill-color
 	-webkit-text-fill-color: rgba(100, 100, 100, 0);
+  -moz-text-fill-color: rgba(100, 100, 100, 0);
+  -o-text-fill-color: rgba(100, 100, 100, 0);
+	text-stroke-width: 1px;
 	-webkit-text-stroke-width: 1px;
-	/*-webkit-text-stroke-color: blue;*/
+	-moz-text-stroke-width: 1px;
+	-o-text-stroke-width: 1px;
+	text-stroke-color: #D7D7D7;
 	-webkit-text-stroke-color: #D7D7D7;
-	margin-left: 160px;
+	-moz-text-stroke-color: #D7D7D7;
+	-o-text-stroke-color: #D7D7D7;
 }
 
 .txt-title {
