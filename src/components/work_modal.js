@@ -18,17 +18,17 @@ class WorkModal extends React.Component {
 
   render() {
     return (
-      <div className="flex-parent h-full w-full flex-parent--column">
+      <div className="flex-parent h-full w-full flex-parent--column flex-parent--center-cross">
         <button
-          className="cursor-pointer top left absolute mx12 my12"
+          className="cursor-pointer top left absolute mx12 my12 bg-white"
           onClick={this.props.handleShowModal}
         >
-          <svg className="icon">
+          <svg className="icon fixed bg-white">
             <use xlinkHref="#icon-close" />
           </svg>
         </button>
 
-        <div className="ml12 mt12 txt-generic">
+        <div className="ml12 mt12 txt-generic max-description-size">
           <span className="txt-title">
             {this.props.showModal && tracking[this.props.showModal].title}
           </span>
@@ -54,8 +54,9 @@ class WorkModal extends React.Component {
                   </video>
                 </div>
               ) : (
-                <div className="border my12" key={num}>
+                <div className="my12 w-full" key={num}>
                   <img
+                    className={`${this.props.showModal !== 'selene' && 'border'}`}
                     src={require(`../assets/images/${this.props.showModal}/${num}${title.gif === num ? '.gif' : '.jpg'}`)}
                   />
                 </div>

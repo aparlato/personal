@@ -9,7 +9,7 @@ class About extends React.Component {
   render() {
     var headsNumber = [1];
     return (
-      <div className="flex-parent flex-parent--center-main flex-parent--center-cross flex-parent--column mb120">
+      <div className="flex-parent flex-parent--center-main flex-parent--center-cross flex-parent--column mb120 mt36">
         <div className="thumbnail-width thumbnail-height bg-white px24 border">
           {headsNumber.map(del => (
             <div

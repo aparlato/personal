@@ -79,9 +79,17 @@ body,
 	margin-top: -6px;
 }
 
+.max-description-size {
+  width: 80%;
+}
+
 /* ------------------------------------------- */
 
 @media (max-width: 767px) {
+
+.max-description-size {
+  width: auto;
+}
 
 .txt-display {
 	font-size: 3.5em;
