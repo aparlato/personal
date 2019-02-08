@@ -54,11 +54,13 @@ class WorkModal extends React.Component {
                   </video>
                 </div>
               ) : (
-                <div className="my12 w-full" key={num}>
+                <div className="my12 w-full flex-parent flex-parent--column flex-parent--center-cross" key={num}>
+                <div className={`${this.props.showModal !== 'selene' && 'border'}`}>
                   <img
-                    className={`${this.props.showModal !== 'selene' && 'border'}`}
+                    className='hmax600'
                     src={require(`../assets/images/${this.props.showModal}/${num}${title.gif === num ? '.gif' : '.jpg'}`)}
                   />
+                  </div>
                 </div>
               )
             
