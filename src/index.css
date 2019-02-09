@@ -43,10 +43,10 @@ body,
 	-webkit-text-stroke-width: 1px;
 	-moz-text-stroke-width: 1px;
 	-o-text-stroke-width: 1px;
-	text-stroke-color: #D7D7D7;
-	-webkit-text-stroke-color: #D7D7D7;
-	-moz-text-stroke-color: #D7D7D7;
-	-o-text-stroke-color: #D7D7D7;
+	text-stroke-color: #bfbfbf;
+	-webkit-text-stroke-color: #bfbfbf;
+	-moz-text-stroke-color: #bfbfbf;
+	-o-text-stroke-color: #bfbfbf;
 }
 
 .txt-title {
@@ -95,10 +95,18 @@ body,
 	font-size: 3.5em;
 	line-height: 1.25em;
 	font-family: 'Poppins';
-	-webkit-text-fill-color: rgba(100, 100, 100, 0);
-	-webkit-text-stroke-width: 1px;
-	/*-webkit-text-stroke-color: blue;*/
-	-webkit-text-stroke-color: #D7D7D7;
+	text-fill-color: rgba(100, 100, 100, 0);
+  -webkit-text-fill-color: rgba(100, 100, 100, 0);
+  -moz-text-fill-color: rgba(100, 100, 100, 0);
+  -o-text-fill-color: rgba(100, 100, 100, 0);
+  text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+  -moz-text-stroke-width: 1px;
+  -o-text-stroke-width: 1px;
+  text-stroke-color: #bfbfbf;
+  -webkit-text-stroke-color: #bfbfbf;
+  -moz-text-stroke-color: #bfbfbf;
+  -o-text-stroke-color: #bfbfbf;
 	margin-left: 0px;
 }
 
