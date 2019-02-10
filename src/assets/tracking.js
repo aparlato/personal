@@ -12,11 +12,20 @@ export default {
     mp4: '06',
     gif: null
   },
+  goodbye_internet: {
+    title: 'Goodbye Internet',
+    description: [
+      'In this project, I created a how-to guide for erasing your online presence. It consists of a poster and a booklet. The poster holds an envelope that contains the book which can be removed. The booklet itself has translucent pages made of vellum to give the feeling upon opening that one is being overwhelmed with information, reminiscent of online pop-ups. As pages are turned (and steps are followed to erase your online presence), the clutter slowly disippates until at the end you are met with a clean page that reads "your search returned 0 results."'
+    ],
+    num: 8,
+    mp4: null,
+    gif: null
+  },
   map_icon_editor: {
     title: 'Map Icon Editor',
     description: [
       <div>
-        The Mapbox Map Icon Editor allows users to give custom colors to
+        At Mapbox, I designed and built the Mapbox Map Icon Editor in React which allows users to give custom colors to
         Mapbox’s set of highway shield and rail icons to better match the color
         scheme of their custom maps.
       </div>,
@@ -38,7 +47,7 @@ export default {
   streets_review_frontend: {
     title: 'Map Validation Tool',
     description: [
-      'At Mapbox I worked on an internal frontend application utilizing an API built by other members of the team to review and validate map edits coming from OpenStreetMap (a collaborative open source mapping project) into our data pipeline.',
+      'At Mapbox I designed and built the frontend for an internal application in React that utilizes an API built by other members of the team to review and validate map edits coming from OpenStreetMap (a collaborative open source mapping project) into our data pipeline.',
       'The backend clustered edits by geographic area into “views” and generated images for each “view” to be reviewed by humans in a swipe-able application either blocking edits or allowing them into our data pipeline.'
     ],
     num: 8,
@@ -68,15 +77,6 @@ export default {
       </div>
     ],
     num: 1,
-    mp4: null,
-    gif: null
-  },
-  goodbye_internet: {
-    title: 'Goodbye Internet',
-    description: [
-      'In this project, I created a how-to guide for erasing your online presence. It consists of a poster and a booklet. The poster holds an envelope that contains the book which can be removed. The booklet itself has translucent pages made of vellum to give the feeling upon opening that one is being overwhelmed with information, reminiscent of online pop-ups. As pages are turned (and steps are followed to erase your online presence), the clutter slowly disippates until at the end you are met with a clean page that reads "your search returned 0 results."'
-    ],
-    num: 8,
     mp4: null,
     gif: null
   },
