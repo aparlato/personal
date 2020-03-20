@@ -15,8 +15,7 @@ class About extends React.Component {
             <div
               key={del}
               style={{
-                background:
-                  `url(${require("../assets/sprites/melt_head_02.png")}) left center`,
+                background: `url(${require('../assets/sprites/melt_head_02.png')}) left center`,
                 animationDelay: `${0.1 * del}s`
               }}
               className="animation move-up-mobile"
@@ -28,7 +27,7 @@ class About extends React.Component {
             <span className="txt-underline">artist</span>.
             <br />
             Currently located in{' '}
-            <span className="txt-underline">San Francisco, CA</span>.
+            <span className="txt-underline">Baltimore, MD</span>.
             <br />
             Working on map design and frontend development at{' '}
             <a href="https://www.mapbox.com" className="txt-underline">
