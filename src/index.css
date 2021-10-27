@@ -22,80 +22,21 @@ body,
   -o-transform: scale(0.5, 0.5);
 }
 
-
 @keyframes play {
-    /* -190px * however many frames */
-    100% { background-position: -4560px; }
+  /* -190px * however many frames */
+  100% {
+    background-position: -4560px;
+  }
 }
 
 .txt-display {
-	/*font-size: 9em;*/
-	margin-left: 160px;
-	font-size: 10vw;
-	line-height: 1.25em;
-	font-family: 'Poppins';
-	font-weight: bold;
-	text-fill-color: rgba(100, 100, 100, 0);
-	-webkit-text-fill-color: rgba(100, 100, 100, 0);
-  -moz-text-fill-color: rgba(100, 100, 100, 0);
-  -o-text-fill-color: rgba(100, 100, 100, 0);
-	text-stroke-width: 1px;
-	-webkit-text-stroke-width: 1px;
-	-moz-text-stroke-width: 1px;
-	-o-text-stroke-width: 1px;
-	text-stroke-color: #bfbfbf;
-	-webkit-text-stroke-color: #bfbfbf;
-	-moz-text-stroke-color: #bfbfbf;
-	-o-text-stroke-color: #bfbfbf;
-}
-
-.txt-title {
-	font-size: 1em;
-	line-height: 1.5em;
-	font-family: 'Poppins';
-	font-weight: bold;
-}
-
-.txt-generic {
-	font-size: 1em;
-	line-height: 1.6em;
-	font-family: serif;
-}
-
-.menu {
-	display: flex !important;
-	flex-direction: column !important;
-}
-
-.thumbnail-width {
-	width: 360px;
-}
-
-.thumbnail-height {
-	height: 360px;
-}
-
-.move-up-mobile {
-	margin-top: -6px;
-}
-
-.max-description-size {
-  width: 80%;
-}
-
-/* ------------------------------------------- */
-
-@media (max-width: 767px) {
-
-.max-description-size {
-  width: auto;
-}
-
-.txt-display {
-	font-size: 3.5em;
-	line-height: 1.25em;
-	font-family: 'Poppins';
-	text-fill-color: rgba(100, 100, 100, 0);
+  /*font-size: 9em;*/
+  margin-left: 160px;
+  font-size: 10vw;
+  line-height: 1.1em;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-fill-color: rgba(100, 100, 100, 0);
   -webkit-text-fill-color: rgba(100, 100, 100, 0);
   -moz-text-fill-color: rgba(100, 100, 100, 0);
   -o-text-fill-color: rgba(100, 100, 100, 0);
@@ -107,48 +48,105 @@ body,
   -webkit-text-stroke-color: #bfbfbf;
   -moz-text-stroke-color: #bfbfbf;
   -o-text-stroke-color: #bfbfbf;
-	margin-left: 0px;
-}
-
-.title {
-	margin-top: 100px
-}
-
-.menu {
-	top: 0px;
-	display: flex !important;
-	flex-direction: row !important;
-	justify-content: space-between !important;
-	text-align: center;
-	width: 200px;
-	padding: 12px;
-	background-color: white;
 }
 
 .txt-title {
-	font-size: 1.05em;
-	line-height: 1.6em;
-	font-family: 'Poppins';
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 .txt-generic {
-	font-size: 0.95em;
-	line-height: 1.2em;
-	font-family: serif;
+  font-size: 1em;
+  line-height: 1.6em;
+  font-family: serif;
+}
+
+.menu {
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .thumbnail-width {
-	width: 300px;
+  width: 360px;
 }
 
 .thumbnail-height {
-	height: 300px;
+  height: 360px;
 }
 
 .move-up-mobile {
-	margin-top: -48px;
-	margin-bottom: -12px;
+  margin-top: -6px;
 }
 
+.max-description-size {
+  width: 80%;
 }
 
+/* ------------------------------------------- */
+
+@media (max-width: 767px) {
+  .max-description-size {
+    width: auto;
+  }
+
+  .txt-display {
+    font-size: 3.5em;
+    line-height: 1.25em;
+    font-family: 'Poppins';
+    text-fill-color: rgba(100, 100, 100, 0);
+    -webkit-text-fill-color: rgba(100, 100, 100, 0);
+    -moz-text-fill-color: rgba(100, 100, 100, 0);
+    -o-text-fill-color: rgba(100, 100, 100, 0);
+    text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
+    -moz-text-stroke-width: 1px;
+    -o-text-stroke-width: 1px;
+    text-stroke-color: #bfbfbf;
+    -webkit-text-stroke-color: #bfbfbf;
+    -moz-text-stroke-color: #bfbfbf;
+    -o-text-stroke-color: #bfbfbf;
+    margin-left: 0px;
+  }
+
+  .title {
+    margin-top: 100px;
+  }
+
+  .menu {
+    top: 0px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    text-align: center;
+    width: 200px;
+    padding: 12px;
+    background-color: white;
+  }
+
+  .txt-title {
+    font-size: 1.05em;
+    line-height: 1.6em;
+    font-family: 'Poppins';
+  }
+
+  .txt-generic {
+    font-size: 0.95em;
+    line-height: 1.2em;
+    font-family: serif;
+  }
+
+  .thumbnail-width {
+    width: 300px;
+  }
+
+  .thumbnail-height {
+    height: 300px;
+  }
+
+  .move-up-mobile {
+    margin-top: -48px;
+    margin-bottom: -12px;
+  }
+}

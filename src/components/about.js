@@ -30,8 +30,20 @@ class About extends React.Component {
             <span className="txt-underline">Baltimore, MD</span>.
             <br />
             Working on map design and frontend development at{' '}
-            <a href="https://www.mapbox.com" className="txt-underline">
+            <a
+              href="https://www.mapbox.com"
+              className="txt-underline"
+              style={{ color: 'blue' }}
+            >
               Mapbox
+            </a>
+            . Mostly on{' '}
+            <a
+              href="https://studio.mapbox.com"
+              className="txt-underline"
+              style={{ color: 'blue' }}
+            >
+              Mapbox Studio
             </a>
             .
             <br />

@@ -1,33 +1,14 @@
 import React from 'react';
 
 export default {
-  three_can_keep_a_secret: {
-    title: 'Three Can Keep A Secret',
-    description: [
-      'This project explores the human need to create order and patterns from chaos, specifically through the creation of a conspiracy theory. Design is used as a tool to display “evidence” as well as to satirize the conspiracy trope. This project disputes an undisputed event: the death of President Ronald Reagan. Research reveals connections between the CIA’s discovery of extraterrestrials, George H. W. Bush, and Reagan’s attempted assassin, and culminates in a theory that Reagan was killed by the CIA, and replaced with a body double while undergoing surgery for colon cancer.',
-      'The exhibition display consists of multiple posters hung from the ceiling at different depths to create a layered effect along with an interactive digital piece created in Processing allowing the viewer to see connections between events and people as well as read details of the conspiracy based on what elements they click/drag.',
-      "This Project was the winner of the Best In Show Award at MICA's Graphic Design Commencement Exhibition as selected by faculty."
-    ],
-    num: 6,
-    mp4: '06',
-    gif: null
-  },
-  goodbye_internet: {
-    title: 'Goodbye Internet',
-    description: [
-      'In this project, I created a how-to guide for erasing your online presence. It consists of a poster and a booklet. The poster holds an envelope that contains the book which can be removed. The booklet itself has translucent pages made of vellum to give the feeling upon opening that one is being overwhelmed with information, reminiscent of online pop-ups. As pages are turned (and steps are followed to erase your online presence), the clutter slowly disippates until at the end you are met with a clean page that reads "your search returned 0 results."'
-    ],
-    num: 8,
-    mp4: null,
-    gif: null
-  },
   map_icon_editor: {
     title: 'Map Icon Editor',
     description: [
       <div>
-        At Mapbox, I designed and built the Mapbox Map Icon Editor in React which allows users to give custom colors to
-        Mapbox’s set of highway shield and rail icons to better match the color
-        scheme of their custom maps.
+        At Mapbox, I designed and built the Mapbox Map Icon Editor in React
+        which allows users to give custom colors to Mapbox’s set of highway
+        shield and rail icons to better match the color scheme of their custom
+        maps.
       </div>,
       <div>
         Try it out:{' '}
@@ -54,13 +35,15 @@ export default {
     mp4: null,
     gif: '01'
   },
-  multimedia: {
-    title: 'Multimedia',
+  three_can_keep_a_secret: {
+    title: 'Three Can Keep A Secret',
     description: [
-      'This project consists of a poster and a brochure advertising a hypothetical lecture taking place in New York City, Philadelphia, and Washington D.C. The lecture itself would bring together three artists from different disciplines to discuss how time affects their work in execution and viewing experience. The poster and the brochure give event details, and the brochure goes on to include more information including brief artist biographies.'
+      'This project explores the human need to create order and patterns from chaos, specifically through the creation of a conspiracy theory. Design is used as a tool to display “evidence” as well as to satirize the conspiracy trope. This project disputes an undisputed event: the death of President Ronald Reagan. Research reveals connections between the CIA’s discovery of extraterrestrials, George H. W. Bush, and Reagan’s attempted assassin, and culminates in a theory that Reagan was killed by the CIA, and replaced with a body double while undergoing surgery for colon cancer.',
+      'The exhibition display consists of multiple posters hung from the ceiling at different depths to create a layered effect along with an interactive digital piece created in Processing allowing the viewer to see connections between events and people as well as read details of the conspiracy based on what elements they click/drag.',
+      "This Project was the winner of the Best In Show Award at MICA's Graphic Design Commencement Exhibition as selected by faculty."
     ],
-    num: 7,
-    mp4: null,
+    num: 6,
+    mp4: '06',
     gif: null
   },
   particle_type: {
@@ -77,6 +60,24 @@ export default {
       </div>
     ],
     num: 1,
+    mp4: null,
+    gif: null
+  },
+  goodbye_internet: {
+    title: 'Goodbye Internet',
+    description: [
+      'In this project, I created a how-to guide for erasing your online presence. It consists of a poster and a booklet. The poster holds an envelope that contains the book which can be removed. The booklet itself has translucent pages made of vellum to give the feeling upon opening that one is being overwhelmed with information, reminiscent of online pop-ups. As pages are turned (and steps are followed to erase your online presence), the clutter slowly disippates until at the end you are met with a clean page that reads "your search returned 0 results."'
+    ],
+    num: 8,
+    mp4: null,
+    gif: null
+  },
+  multimedia: {
+    title: 'Multimedia',
+    description: [
+      'This project consists of a poster and a brochure advertising a hypothetical lecture taking place in New York City, Philadelphia, and Washington D.C. The lecture itself would bring together three artists from different disciplines to discuss how time affects their work in execution and viewing experience. The poster and the brochure give event details, and the brochure goes on to include more information including brief artist biographies.'
+    ],
+    num: 7,
     mp4: null,
     gif: null
   },

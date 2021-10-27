@@ -56,7 +56,7 @@ class App extends React.Component {
         <div className="mt60 viewport-full limiter flex-parent flex-parent--column color-black">
           <div className="w-full h-full title">
             <div className="mt-neg24 txt-display fixed z-neg1">
-              alexander parlato is a designer
+              alexander parlato is a designer / developer
             </div>
           </div>
           <Menu />
@@ -64,7 +64,10 @@ class App extends React.Component {
         <div>
           <div className="w-full viewport-twothirds" />
           <Element name="projects">
-            <Work scroll={!(this.state.scrollY < 50)} handleShowModal={this.handleShowModal} />
+            <Work
+              scroll={!(this.state.scrollY < 50)}
+              handleShowModal={this.handleShowModal}
+            />
           </Element>
         </div>
         <div>
