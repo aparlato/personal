@@ -76,10 +76,9 @@ class App extends React.Component {
           </Element>
         </div>
 
-        <div className="bg-pink">
+        <div>
           <ReactModal
             isOpen={this.state.showModal !== null}
-            contentLabel="Minimal Modal Example"
             onRequestClose={this.handleShowModal}
             shouldCloseOnOverlayClick={true}
           >

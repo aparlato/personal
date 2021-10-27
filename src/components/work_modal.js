@@ -20,7 +20,7 @@ class WorkModal extends React.Component {
     return (
       <div className="flex-parent h-full w-full flex-parent--column flex-parent--center-cross">
         <button
-          className="cursor-pointer top left absolute mx12 my12 bg-white"
+          className="cursor-pointer top right absolute ml12 mr24 my12 bg-white"
           onClick={this.props.handleShowModal}
         >
           <svg className="icon fixed bg-white">
@@ -41,8 +41,8 @@ class WorkModal extends React.Component {
 
         <div>
           {this.props.showModal &&
-            createArray(tracking[this.props.showModal].num).map(num =>
-            { const title = tracking[this.props.showModal];
+            createArray(tracking[this.props.showModal].num).map(num => {
+              const title = tracking[this.props.showModal];
               return title.mp4 === num ? (
                 <div className="border my12" key={num}>
                   <video controls>
@@ -54,18 +54,24 @@ class WorkModal extends React.Component {
                   </video>
                 </div>
               ) : (
-                <div className="my12 w-full flex-parent flex-parent--column flex-parent--center-cross" key={num}>
-                <div className={`${this.props.showModal !== 'selene' && 'border'}`}>
-                  <img
-                    className='hmax600'
-                    src={require(`../assets/images/${this.props.showModal}/${num}${title.gif === num ? '.gif' : '.jpg'}`)}
-                  />
+                <div
+                  className="my12 w-full flex-parent flex-parent--column flex-parent--center-cross"
+                  key={num}
+                >
+                  <div
+                    className={`${this.props.showModal !== 'selene' &&
+                      'border'}`}
+                  >
+                    <img
+                      className="hmax600"
+                      src={require(`../assets/images/${
+                        this.props.showModal
+                      }/${num}${title.gif === num ? '.gif' : '.jpg'}`)}
+                    />
                   </div>
                 </div>
-              )
-            
-            }
-            )}
+              );
+            })}
         </div>
       </div>
     );
